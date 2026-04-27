@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "titulo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "autor",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "hashArquivo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dataRegistro",
+						"type": "uint256"
+					}
+				],
+				"name": "MusicaRegistrada",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "registrarMusica",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ultimaMusica",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "titulo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "autor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "hashArquivo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dataRegistro",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/RegistroMusica.sol": "RegistroMusica"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/RegistroMusica.sol": {
+			"keccak256": "0x62577b792458b69a8bc46102d6172385b058f9b1b0a9ddda43df21addceb026b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b509ee6be905e96a9263e4ccddfae0b12a92c55560db2002c4454aad95dc25f4",
+				"dweb:/ipfs/QmVudk8gLPyYBuPGqPKNeaTiJCLEULaQexEw2fr1WnWbuN"
+			]
+		}
+	},
+	"version": 1
+}
